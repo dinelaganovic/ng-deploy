@@ -5,7 +5,8 @@ import { MatCardModule} from '@angular/material/card';
 import { CardComponent } from '../card/card.component';
 import { CommonModule } from '@angular/common';
 import { MatIconModule } from '@angular/material/icon';
-
+import { DOCUMENT } from '@angular/common';
+import { Inject } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +16,7 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+
   currentIndex = 0;
   currentIndex1 = 0;
   currentIndex2 = 0;
@@ -24,7 +26,7 @@ export class HomeComponent {
 
   isMobile: boolean = false;
 
-  constructor(private renderer: Renderer2) {}
+  constructor(private renderer: Renderer2, @Inject(DOCUMENT) private document: Document) {}
 
   ngOnInit(): void {
     // Provjeravamo veličinu ekrana pri inicijalizaciji komponente
@@ -34,7 +36,9 @@ export class HomeComponent {
   }
   // Funkcija koja provjerava da li je uređaj mobilni
   checkIsMobile() {
-    this.isMobile = window.innerWidth < 768; // Postavljamo prag širine ekrana za mobilne uređaje
+    if (this.document.defaultView) { // Proveravamo da li postoji defaultView pre pristupa innerWidth
+      this.isMobile = this.document.defaultView.innerWidth < 768; // Postavljamo prag širine ekrana za mobilne uređaje
+    }
   }
   // prog langg
   cards = [
