@@ -37,7 +37,7 @@
 a{
   color: inherit; /* Nasleđuje boju od roditeljskog elementa */
   text-decoration: none; /* Uklanja podvučenost linkova */}
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     .contact-info {
       display: flex;
       flex-direction: column;
