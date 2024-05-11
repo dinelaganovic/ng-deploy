@@ -20,3 +20,11 @@
     color: black;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+    .footer-links a{
+        font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
