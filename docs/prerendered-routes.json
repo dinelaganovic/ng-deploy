@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/portfolio-website",
+    "/portfolio-website/about",
+    "/portfolio-website/contact",
+    "/portfolio-website/footer",
+    "/portfolio-website/home",
+    "/portfolio-website/navbar"
+  ]
+}
