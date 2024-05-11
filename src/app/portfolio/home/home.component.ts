@@ -42,47 +42,47 @@ export class HomeComponent {
   }
   // prog langg
   cards = [
-    { title: 'C', imageSrc: '../../../assets/c.png', description: ' ' },
-    { title: 'C++', imageSrc: '../../../assets/c++.png', description: ' ' },
-    { title: 'C#', imageSrc: '../../../assets/csh.png', description: ' ' },
-    { title: 'JavaScript', imageSrc: '../../../assets/js.png', description: ' ' },
-    { title: 'PHP', imageSrc: '../../../assets/php.png', description: ' ' },
-    { title: 'Java', imageSrc: '../../../assets/java.png', description: ' ' },
-    { title: 'Python', imageSrc: '../../../assets/python.png', description: ' ' },
-    { title: 'Typescript', imageSrc: '../../../assets/ts.png', description: ' ' },
+    { title: 'C', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/c.png', description: ' ' },
+    { title: 'C++', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/c++.png', description: ' ' },
+    { title: 'C#', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/csh.png', description: ' ' },
+    { title: 'JavaScript', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/js.png', description: ' ' },
+    { title: 'PHP', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/php.png', description: ' ' },
+    { title: 'Java', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/java.png', description: ' ' },
+    { title: 'Python', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/python.png', description: ' ' },
+    { title: 'Typescript', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/ts.png', description: ' ' },
   ];
   // frontend langg
   cards1 = [
-   { title: 'HTML', imageSrc: '../../../assets/html.png', description: ' ' },
-    { title: 'CSS', imageSrc: '../../../assets/css.png', description: ' ' },
-    { title: 'SCSS', imageSrc: '../../../assets/scss.png', description: ' ' },
-    { title: 'Bootstrap', imageSrc: '../../../assets/bst.png', description: ' '},
-    { title: 'Angular', imageSrc: '../../../assets/angular.png', description: ' ' },
-    { title: 'React', imageSrc: '../../../assets/react.png', description: ' ' },
-    { title: 'Redux', imageSrc: '../../../assets/redux.png', description: ' ' },
+   { title: 'HTML', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/html.png', description: ' ' },
+    { title: 'CSS', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/css.png', description: ' ' },
+    { title: 'SCSS', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/scss.png', description: ' ' },
+    { title: 'Bootstrap', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/bst.png', description: ' '},
+    { title: 'Angular', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/angular.png', description: ' ' },
+    { title: 'React', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/react.png', description: ' ' },
+    { title: 'Redux', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/redux.png', description: ' ' },
   ];
 // backend langg
 cards2 = [
-  { title: 'NodeJs', imageSrc: '../../../assets/nodejs.png', description: ' ' },
-   { title: '.NET', imageSrc: '../../../assets/net.png', description: ' ' },
-   { title: 'SpringBoot', imageSrc: '../../../assets/springboot.png', description: ' ' },
-   { title: 'Laravel', imageSrc: '../../../assets/laravel.png', description: ' '},
-   { title: 'Django', imageSrc: '../../../assets/django.png', description: ' ' },
-   { title: 'Firebase', imageSrc: '../../../assets/firebase.png', description: ' ' },
+  { title: 'NodeJs', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/nodejs.png', description: ' ' },
+   { title: '.NET', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/net.png', description: ' ' },
+   { title: 'SpringBoot', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/springboot.png', description: ' ' },
+   { title: 'Laravel', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/laravel.png', description: ' '},
+   { title: 'Django', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/django.png', description: ' ' },
+   { title: 'Firebase', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/firebase.png', description: ' ' },
  ];
   
  // modbile app langg
 cards3 = [
-  { title: 'JavaAndroid', imageSrc: '../../../assets/android.png', description: ' ' },
-   { title: 'ReactNative', imageSrc: '../../../assets/reactnative.png', description: ' ' },
-   { title: 'SwiftUI', imageSrc: '../../../assets/swift.png', description: ' ' },
-   { title: 'Kotlin', imageSrc: '../../../assets/kotlin.png', description: ' '},
+  { title: 'JavaAndroid', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/android.png', description: ' ' },
+   { title: 'ReactNative', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/reactnative.png', description: ' ' },
+   { title: 'SwiftUI', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/swift.png', description: ' ' },
+   { title: 'Kotlin', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/kotlin.png', description: ' '},
  ];
  // database app langg
 cards4 = [
-  { title: 'MySQL', imageSrc: '../../../assets/mysql.png', description: ' ' },
-  { title: 'PostgreSQL', imageSrc: '../../../assets/postgresql.png', description: ' ' },
-  { title: 'MongoDB', imageSrc: '../../../assets/mongodb.png', description: ' ' },
+  { title: 'MySQL', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/mysql.png', description: ' ' },
+  { title: 'PostgreSQL', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/postgresql.png', description: ' ' },
+  { title: 'MongoDB', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/mongodb.png', description: ' ' },
  ];
 
  previous() {
