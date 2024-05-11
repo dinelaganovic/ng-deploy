@@ -1,0 +1,11 @@
+<footer class="footer">
+    <div class="footer-links">
+        <a (click)="onHome()">Home</a>
+        <a (click)="onAbout()">About</a>
+        <a (click)="onContact">Contact</a>
+        <a [attr.href]="'mailto:' + emailAdress" target="_blank">Email</a>
+        <a [href]="linkinLink">LinkedIn</a>
+        <a [href]="githubLink">Github</a>
+    </div>
+    <p>&copy; 2024 All rights reserved</p>
+</footer>

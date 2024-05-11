@@ -1,0 +1,67 @@
+.aboutme-container{
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #87e1a8;
+    font-family: "Lobster",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2,h3{
+    color: green;
+}
+p{
+    font-size: 25px;
+    color: rgb(3, 49, 3);
+    text-align: center;
+    padding-top: 30px;
+}
+.education-section,
+.project-section{
+    margin-top: 30px;
+}
+.project-card{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px 0;
+    background-color: transparent;
+}
+.project-card p{
+    font-size: 25px;
+    color: rgb(3, 49, 3);
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.cardd {
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3); 
+}
+.cardd p{
+text-align: left;
+padding: 20px;
+}
+.card-description:hover a {
+    color: black !important;
+}
+@media screen and (max-width: 768px) {
+    p{
+        font-size: 18px;
+        color: rgb(3, 49, 3);
+        text-align: center;
+        padding-top: 20px;
+    }
+    .project-card p{
+        font-size: 15px;
+        color: rgb(3, 49, 3);
+        text-align: left;
+        padding-left: 8px;
+        padding-top: 8px;
+    }
+  }
+  

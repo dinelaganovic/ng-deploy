@@ -1,0 +1,66 @@
+<app-navbar></app-navbar>
+<div class="aboutme-container">
+    <div class="main-content animate__animated animate__fadeInUp">
+
+    <div id="education-section" *ngIf="showESection">
+        <div id="skills-section" class="skills-section animate__animated animate__fadeInUp">
+            <p style="font-size: 35px; color: green;">EDUCATION</p>
+          </div>
+          <p><i class="fas fa-building"></i> University Name : <b>State University in Novi Pazar</b></p>
+          <p><i class="fas fa-graduation-cap"></i>Degree : <b>Electrical and computer engineer/software engineer</b></p>
+          <p><i class="far fa-calendar"></i>Graduation Year : <b>2024</b></p>
+    </div>
+    <div id="expirience-section" *ngIf="showExSection">
+        <div id="skills-section" class="skills-section animate__animated animate__fadeInUp">
+            <p style="font-size: 35px; color: green;">EXPIRIENCE</p>
+          </div>
+        <div class="project-card">
+          <p>During my university studies, I worked as a programming instructor at the "Gimnazija" High School in Novi Pazar, where I planned and conducted teaching activities in C++ and Python for a period of 3 months.</p>
+          <p>Simultaneously, I provided personalized support in private sessions, focusing on concept comprehension and exam preparation. Additionally, I actively prepared students for exams through supplementary materials and exercises, enabling them to excel in the field of programming.</p>
+        </div>
+    </div>
+    <div id="project-section" *ngIf="showPSection">
+        <div id="skills-section" class="skills-section animate__animated animate__fadeInUp">
+            <p style="font-size: 35px; color: green; margin-bottom: 10px;">PROJECTS</p>
+          </div>
+          <div style="padding: 20px;" *ngFor="let project of projects">
+            <app-pcard 
+            [projectTitle]="project.title"
+            [projectDescription]="project.description" 
+            [image2Src]="project.image2Src"
+            [image3Src]="project.image3Src"
+            [secretLink]="project.secretLink"
+            [codeLink]="project.codeLink">
+          </app-pcard>
+          </div>
+          <div class="cardd">
+              <h2 style="color: rgb(3, 49, 3);">Other projects:</h2>
+            
+              <p>
+                <strong>1. Game Development in C# and C++:</strong>
+                I have developed several games using C# and C++, including (XO, pingpong, chees,...).
+              </p>
+            
+              <p>
+                <strong>2. 3D Space Visualization in C++:</strong>
+                I implemented 3D space visualization using C++, enabling detailed visual representation of the environment.
+              </p>
+            
+              <p>
+                <strong>3. Game Pathfinding in React and Django:</strong>
+                I developed a game using React and Django, where I applied various artificial intelligence algorithms to enhance the user experience.
+              </p>
+            
+              <p>
+                <strong>4. Online Bookstore in Java:</strong>
+                I created an online bookstore using Java technologies such as Servlets, JSP, RMI, and Java Sockets. This involved applying semaphores for efficient resource access management.
+              </p>
+            
+              <p>
+                All these projects are available on my GitHub profile for further insight.
+              </p>          
+          </div>
+    </div>
+    </div>
+</div>
+<app-footer></app-footer>

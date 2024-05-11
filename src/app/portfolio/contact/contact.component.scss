@@ -1,0 +1,40 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    background-color: #87e1a8;
+    font-family: "Lobster", sans-serif;
+
+}
+  .card {
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3); 
+    width: 400px; /* Širina kartice */
+    padding: 20px; /* Unutrašnji prostor */
+}
+  .profile-section {
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Zaobljavanje slike */
+    margin-bottom: 10px;
+  }
+  .contact-details{
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  p{
+    padding-top: 10px;
+    margin-left: 23%;
+    font-size: large;  
+}
+a{
+  color: inherit; /* Nasleđuje boju od roditeljskog elementa */
+  text-decoration: none; /* Uklanja podvučenost linkova */}
+  

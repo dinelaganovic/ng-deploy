@@ -1,0 +1,134 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; // Dve kolone, svaka zauzima jednu frakciju prostora
+}
+.box {
+    padding: 60px;
+}  
+.thumb1-container{
+    margin-left: 50px;
+}
+.thumb2-container{
+    margin-top: 10px;
+}
+.thumb2-container h1{
+    font-size: 2.0em;
+    color: #555;
+}
+.thumb2-container h2{
+    color: #555;
+}
+.thumb2-container p{
+    font-size: 1.2em;
+    color: #555;
+}
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #87e1a8;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+.thumb-container{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-radius: px;
+}
+.thumb-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.image-container{
+    flex: 1;
+}
+.image-container img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.text-container {
+    flex: 1;
+    padding: 0 20px; 
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    color: #555;
+}
+.text-container h1{
+    font-size: 2.5em;
+    color: #333;
+}
+.animate__fadeInLeft{
+    animation-name: fadeInLeft;
+}
+.profile-image{
+    width: 300px;
+    height: 300px;
+}
+.align-items-center{
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+p{
+    font-size: 1.2em;
+    color: #555;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: "Lobster",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.example-card{
+    max-width: 300px;
+    transition: transform 0.6s ease;
+}
+.example-card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.example-header-image{
+    background-size: cover;
+}
+.navigation-buttons{
+    margin-top: 220px;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; // Jedna kolona za manje ekrane
+    }
+
+    .thumb1-container {
+        margin-left: 0; // Nema leve margine
+    }
+
+    .thumb-image {
+        margin-left: 0; // Nema leve margine
+    }
+}
