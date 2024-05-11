@@ -36,10 +36,13 @@ export class SkillsComponent {
   }
   // Funkcija koja provjerava da li je uređaj mobilni
   checkIsMobile() {
-    if (this.document.defaultView) { // Proveravamo da li postoji defaultView pre pristupa innerWidth
-      this.isMobile = this.document.defaultView.innerWidth < 600; // Postavljamo prag širine ekrana za mobilne uređaje
+    if (this.document.defaultView) {
+      const isMobile = this.document.defaultView.innerWidth < 600;
+      console.log('Da li je uređaj mobilni:', isMobile);
+      this.isMobile = isMobile;
     }
   }
+  
   // prog langg
   cards = [
     { title: 'C', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/c.png', description: ' ' },

@@ -2,16 +2,6 @@
     font-family: 'Helvetica';
     src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica.ttf') format('truetype');
 }
-@font-face {
-    font-family: 'Helvetica Bold';
-    src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica-Bold.ttf') format('truetype');
-}
-//Helvetica Compressed
-@font-face {
-    font-family: 'Helvetica Compressed';
-    src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/helvetica-compressed-5871d14b6903a.otf') format('truetype');
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr; // Dve kolone, svaka zauzima jednu frakciju prostora

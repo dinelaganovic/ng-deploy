@@ -4,7 +4,7 @@
 
     <div id="education-section" *ngIf="showESection">
         <div id="skills-section" class="skills-section animate__animated animate__fadeInUp">
-            <p style="font-size: 35px; color: green; font-family: 'Helvetica Compressed', sans-serif;">EDUCATION</p>
+            <p class="ex"><b>EDUCATION</b></p>
           </div>
           <p><i class="fas fa-building"></i> University Name : <b>State University in Novi Pazar</b></p>
           <p><i class="fas fa-graduation-cap"></i>Degree : <b>Electrical and computer engineer/software engineer</b></p>
@@ -12,8 +12,8 @@
     </div>
     <div id="expirience-section" *ngIf="showExSection">
         <div id="skills-section" class="skills-section animate__animated animate__fadeInUp">
-            <p style="font-size: 35px; color: green; font-family: 'Helvetica Compressed', sans-serif;">EXPIRIENCE</p>
-          </div>
+          <p class="ex"><b>EXPIRIENCE</b></p>
+        </div>
         <div class="project-card">
           <p>During my university studies, I worked as a programming instructor at the "Gimnazija" High School in Novi Pazar, where I planned and conducted teaching activities in C++ and Python for a period of 3 months.</p>
           <p>Simultaneously, I provided personalized support in private sessions, focusing on concept comprehension and exam preparation. Additionally, I actively prepared students for exams through supplementary materials and exercises, enabling them to excel in the field of programming.</p>
@@ -21,8 +21,8 @@
     </div>
     <div id="project-section" *ngIf="showPSection">
         <div id="skills-section" class="skills-section animate__animated animate__fadeInUp">
-            <p style="font-size: 35px; color: green; margin-bottom: 10px; font-family: 'Helvetica Compressed', sans-serif;">PROJECTS</p>
-          </div>
+          <p class="ex"><b>PROJECTS</b></p>
+        </div>
           <div style="padding: 20px;" *ngFor="let project of projects">
             <app-pcard 
             [projectTitle]="project.title"

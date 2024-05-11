@@ -2,15 +2,6 @@
     font-family: 'Helvetica';
     src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica.ttf') format('truetype');
 }
-@font-face {
-    font-family: 'Helvetica Bold';
-    src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica-Bold.ttf') format('truetype');
-}
-//Helvetica Compressed
-@font-face {
-    font-family: 'Helvetica Compressed';
-    src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/helvetica-compressed-5871d14b6903a.otf') format('truetype');
-}
 .aboutme-container{
     text-align: center;
     margin: 0 auto;
@@ -19,6 +10,11 @@
     font-family: "Helvetica",sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+.ex{
+    font-size: 35px;
+    color: green; 
+    font-family: 'Helvetica Compressed', sans-serif;
 }
 h2,h3{
     color: green;
@@ -75,6 +71,11 @@ padding: 20px;
         text-align: left;
         padding-left: 8px;
         padding-top: 8px;
+    }
+    .ex{
+        font-size: 25px;
+        color: green; 
+        font-family: 'Helvetica Compressed', sans-serif;
     }
   }
   
