@@ -37,7 +37,7 @@ export class HomeComponent {
   // Funkcija koja provjerava da li je uređaj mobilni
   checkIsMobile() {
     if (this.document.defaultView) { // Proveravamo da li postoji defaultView pre pristupa innerWidth
-      this.isMobile = this.document.defaultView.innerWidth < 768; // Postavljamo prag širine ekrana za mobilne uređaje
+      this.isMobile = this.document.defaultView.innerWidth < 600; // Postavljamo prag širine ekrana za mobilne uređaje
     }
   }
   // prog langg
