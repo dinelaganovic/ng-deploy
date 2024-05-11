@@ -39,8 +39,8 @@ export class AboutComponent {
     description:"The functions performed by the information system of the Institute for Public Health are the issuing of health cards, certification of health cards, regulation of travel expenses for treatment and certification of instructions for treatment. The information system of the Public Health Institute keeps records of health centers and employees (doctors), users and their treatment at the city level. Techniques for development are Angular, .NET, MySql. Access to the code is at the [ISZZJZ github link].", 
     image2Src: "https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/img7.png",
     image3Src:"https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/img8.png",
-    secretLink: "https://github.com/dinelaganovic/IS_ZZJZ_Frontend",
-    codeLink: "https://github.com/dinelaganovic/IS_ZZJZ_Backend"
+    secretLink: "https://github.com/dinelaganovic/IS_ZZJZ_Backend",
+    codeLink: "https://github.com/dinelaganovic/IS_ZZJZ_Frontend"
   }, {//ebookstore
     title:"Online bookstore information system website",
     description:"Online bookstore information system website. On the site, customers can view books and order them online. The bookstore has its own warehouse of books and for each book it has information on the number of copies of the book in the warehouse. The bookstore periodically informs its customers about new books, discounts, and the like. This information and system is made in Angular and .NET, MySql. [Code access link].", 
@@ -50,7 +50,7 @@ export class AboutComponent {
     codeLink: "https://github.com/dinelaganovic/EBookStore_F"
   },{//laravel php school
     title:"Website for learning biology",
-    description:"The website is built in Laravel, pure Html and Css. The website offers the possibility to create new courses, in which new users can be enrolled. The possibility of setting up materials and testing users. The possibility of creating news and user notifications about the new course. There are three types of users: administrator, professor and student. The link to the code is available [EB Github link].", 
+    description:"The website is built in Laravel, pure Html and Css. The website offers the possibility to create new courses, in which new users can be enrolled. The possibility of setting up materials and testing users. The possibility of creating news and user notifications about the new course. There are three types of users: administrator, professor and student. The link to the code is available [EBGithub link].", 
     image2Src: "https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/img6.jpeg",
     image3Src:"https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/img5.jpeg",
     secretLink: "",
@@ -97,9 +97,9 @@ export class AboutComponent {
         .replace("[Sjenica Website]", `<a href="${project.secretLink}" target="_blank">Sjenica Website</a>`)
         .replace("[here]", `<a href="${project.codeLink}" target="_blank">here</a>`)
         .replace("[FS github link]", `<a href="${project.codeLink}" target="_blank">FS github link</a>` )
-        .replace("[EB Github Link]", `<a href="${project.codeLink}" target="_blank">EB Github Link</a>` )
         .replace("[ISZZJZ github link]", `<a href="${project.codeLink}" target="_blank">ISZZJZ github link</a>` )
         .replace("[Code access link]", `<a href="${project.codeLink}" target="_blank">Code access link</a>` )
+        .replace("[EBGithub link]", `<a href="${project.codeLink}" target="_blank">EBGithub link</a>` )
         .replace("[installation link and code is available here]",`<a href="${project.codeLink}" target="_blank">installation link and code is available here</a>`)
         .replace("[code link]",`<a href="${project.codeLink}" target="_blank">code link</a>` )
         .replace("[github repository]",`<a href="${project.codeLink}" target="_blank">github repository</a>` )

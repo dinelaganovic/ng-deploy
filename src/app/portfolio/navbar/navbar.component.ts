@@ -13,10 +13,10 @@ export class NavbarComponent {
 
   }
   onHome(){
-    this.route.navigate(['./portfolio-website/home'])
+    this.route.navigate(['./portfolio-website/'])
   }
   onSkills() {
-    this.route.navigate(['/portfolio-website/home'], { fragment: 'skills-section' }).then(success => {
+    /*this.route.navigate(['/portfolio-website/home'], { fragment: 'skills-section' }).then(success => {
       if (success) {
         const skillSection = document.getElementById('skills-section');
         if (skillSection) {
@@ -25,7 +25,8 @@ export class NavbarComponent {
       } else {
         console.error('Navigation failed');
       }
-    });
+    });*/  //navigacija preko sekcije
+    this.route.navigate(['./portfolio-website/skills'])
   }
   
   onAbout(){
