@@ -7,16 +7,15 @@ import { CommonModule } from '@angular/common';
 import { MatIconModule } from '@angular/material/icon';
 import { DOCUMENT } from '@angular/common';
 import { Inject } from '@angular/core';
-import { SkillsComponent } from '../skills/skills.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-skills',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, MatCardModule, CardComponent,CommonModule,MatIconModule,SkillsComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  imports: [NavbarComponent, FooterComponent, MatCardModule, CardComponent,CommonModule,MatIconModule],
+  templateUrl: './skills.component.html',
+  styleUrl: './skills.component.scss'
 })
-export class HomeComponent {
+export class SkillsComponent {
 
   currentIndex = 0;
   currentIndex1 = 0;

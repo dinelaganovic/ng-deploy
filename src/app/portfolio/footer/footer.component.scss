@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../../../assets/fonts/Helvetica.ttf') format('truetype');
+}
 .footer{
     background-color: green;
     color: #fff;
     text-align: center;
     padding: 20px;
+    font-family: 'Helvetica',sans-serif;
 }
 .footer-links{
     display: flex;

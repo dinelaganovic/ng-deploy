@@ -1,10 +1,23 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../../../assets/fonts/Helvetica.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: url('../../../assets/fonts/Helvetica-Bold.ttf') format('truetype');
+}
+//Helvetica Compressed
+@font-face {
+  font-family: 'Helvetica Compressed';
+  src: url('../../../assets/fonts/helvetica-compressed-5871d14b6903a.otf') format('truetype');
+}
 .contact-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10%;
     background-color: #87e1a8;
-    font-family: "Lobster", sans-serif;
+    font-family: "Helvetica", sans-serif;
 
 }
   .card {
@@ -12,8 +25,8 @@
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3); 
-    width: 400px; /* Širina kartice */
-    padding: 20px; /* Unutrašnji prostor */
+    width: 500px; /* Širina kartice */
+    padding: 30px; /* Unutrašnji prostor */
 }
   .profile-section {
     text-align: center;
@@ -44,8 +57,14 @@ a{
       align-items: center;
       padding: 30%;
       background-color: #87e1a8;
-      font-family: "Lobster", sans-serif;
+      font-family: "Helvetica", sans-serif;
   
+  }
+  .profile-picture {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%; /* Zaobljavanje slike */
+    margin-bottom: 10px;
   }
   .card {
     border: 1.5px solid #ccc;
@@ -54,5 +73,12 @@ a{
     box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3); 
     width: 280px; /* Širina kartice */
     padding: 20px; /* Unutrašnji prostor */
+
+}
+h2{
+  font-size: 15px;
+}
+p{
+font-size: 12px;
 }
   }
