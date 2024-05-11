@@ -2,178 +2,115 @@
     font-family: 'Helvetica';
     src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica.ttf') format('truetype');
 }
+
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr; // Dve kolone, svaka zauzima jednu frakciju prostora
+    grid-template-columns: 1fr 2fr;
 }
+
 .box {
-    padding: 60px;
-}  
-.thumb1-container{
+    padding: 100px;
+}
+
+.thumb1-container {
     margin-left: 50px;
 }
-.thumb2-container{
+
+.thumb2-container {
     margin-top: 10px;
 }
-.thumb2-container h1{
-    font-size: 2.0em;
-    color: #555;
-}
-.thumb2-container h2{
-    color: #555;
-}
-.thumb2-container p{
-    font-size: 1.2em;
-    color: #555;
-}
-.home-container {
+
+.thumb2-container h1 {
+    font-size: 3.0em;
+    color: #004f4f;
     text-align: center;
-    padding: 50px;
-    background-color: #87e1a8;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}  
-.thumb-container{
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    border-radius: px;
-}
-.thumb-image{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    margin-left: 100px;
-}
-
-.image-container{
-    flex: 1;
-}
-.image-container img{
-    max-width: 100%;
-    border-radius: 10px;
-}
-.text-container {
-    flex: 1;
-    padding: 0 20px; 
-}
-.main-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text-container p {
-    font-size: 1.2em;
-    color: #555;
-}
-.text-container h1{
-    font-size: 2.5em;
-    color: #333;
-}
-.animate__fadeInLeft{
-    animation-name: fadeInLeft;
-}
-.profile-image{
-    width: 300px;
-    height: 300px;
-}
-.align-items-center{
-    justify-content: center;
-    text-align: center;
-}
-
-h1{
-    font-size: 2.5em;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 1); /* Beli odsjaj */
     margin-bottom: 20px;
-    color: #333;
-}
-p{
-    font-size: 1.2em;
-    color: #555;
-}
-.card-container{
-    display: flex;
-    justify-content: space-between;
     margin-top: 30px;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
-.example-card{
-    max-width: 300px;
-    transition: transform 0.6s ease;
+.thumb2-container h2 {
+    color: #004f4f;
+    font-size: 1.4em;
+    text-align: center;
+    background-color: #87e1a8;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 15px; /* Zaobljavanje ivica */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Beli odsjaj */
 }
-.example-card:hover{
-    transform: scale(1.05);
-    cursor: pointer;
+
+.thumb2-container p {
+    color: #004f4f;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #87e1a8;
+    padding: 20px;
+    border-radius: 15px; /* Zaobljavanje ivica */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Beli odsjaj */
 }
-.example-header-image{
-    background-size: cover;
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87e1a8;
+    justify-content: space-between;
+    font-family: "Helvetica", sans-serif;
+    background-image: url('../../../assets/background.jpg');
+    min-height: 100vh; /* Postavljanje minimalne visine na visinu prozora pregledača */
 }
-.navigation-buttons{
-    margin-top: 220px;
+
+.main-content {
+    flex-grow: 1; /* Omogućava glavnom sadržaju da raste kako bi zauzeo preostali prostor */
 }
-button{
-    background-color: green;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+
+.thumb-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+    margin-left: 80px;
+    box-shadow: 0 5px 18px #87e1a8;
 }
+
+
 @media screen and (max-width: 600px) {
     .container {
-        grid-template-columns: 1fr; // Jedna kolona za manje ekrane
+        grid-template-columns: 1fr;
     }
 
-    .home-container{
+    .home-container {
         padding: 30px;
-
-    }
-    .thumb1-container {
-        margin-left: 0; // Nema leve margine
     }
 
+    .thumb1-container,
     .thumb-image {
-        margin-left: 0; // Nema leve margine
+        margin-left: 0;
     }
-    p{
+
+    p {
         font-size: 12px;
         color: #555;
     }
-    .container {
-        grid-template-columns: 1fr; /* Jedna kolona za većinu mobilnih uređaja */
-    }
-
-    .box {
-        padding: 30px; /* Smanjujem padding u kutijama za manje ekrane */
-    }
-
-    .thumb1-container {
-        margin-left: 0; /* Uklanjam levu marginu za thumb1-container */
-    }
 
     .thumb2-container {
-        margin-top: 20px; /* Povećavam razmak između thumb2-container-a i prethodnog sadržaja */
+        margin-top: 20px;
     }
-
+    .thumb2-container h1{
+        font-size: 25px;
+    }
+    .thumb2-container h2{
+        font-size: 20px;
+    }
+    .thumb2-container p{
+        font-size: 15px;
+    }
+    .box{
+     padding: 20px;
+    }
     .thumb-image {
-        width: 150px; /* Smanjujem veličinu slike u thumb-container-u */
+        width: 150px;
         height: 150px;
-        border-radius: 75px;
-    }
-
-    .text-container h1 {
-        font-size: 1.8em; /* Smanjujem veličinu naslova za manje ekrane */
-    }
-
-    .text-container p {
-        font-size: 1em; /* Smanjujem veličinu teksta za manje ekrane */
-    }
-
-    .navigation-buttons {
-        margin-top: 20px; /* Povećavam razmak između navigacionih dugmadi i prethodnog sadržaja */
+        border-radius: 45px;
+        margin-left: 120px;
     }
 }
