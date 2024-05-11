@@ -3,22 +3,24 @@
   src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica.ttf') format('truetype');
 }
 .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10%;
-    background-color: #87e1a8;
-    font-family: "Helvetica", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0; /* Promenjen padding samo za gornji i donji deo */
+  background-color: #87e1a8;
+  font-family: "Helvetica", sans-serif;
+}
 
+.card {
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3);
+  width: 500px; /* Širina kartice */
+  padding: 30px; /* Unutrašnji prostor */
 }
-  .card {
-    border: 1.5px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3); 
-    width: 500px; /* Širina kartice */
-    padding: 30px; /* Unutrašnji prostor */
-}
+
+
   .profile-section {
     text-align: center;
   }
@@ -46,6 +48,23 @@ a{
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 20% 0; /* Promenjen padding samo za gornji i donji deo */
+      background-color: #87e1a8;
+      height: 400px;
+      font-family: "Helvetica", sans-serif;
+  }
+
+  .card {
+      border: 1.5px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3);
+      width: 280px; /* Širina kartice */
+      padding: 20px; /* Unutrašnji prostor */
+  }.contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 30%;
       background-color: #87e1a8;
       font-family: "Helvetica", sans-serif;
@@ -57,15 +76,7 @@ a{
     border-radius: 50%; /* Zaobljavanje slike */
     margin-bottom: 10px;
   }
-  .card {
-    border: 1.5px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3); 
-    width: 280px; /* Širina kartice */
-    padding: 20px; /* Unutrašnji prostor */
-
-}
+ 
 h2{
   font-size: 15px;
 }
