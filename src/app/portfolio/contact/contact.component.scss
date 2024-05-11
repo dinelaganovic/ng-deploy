@@ -37,4 +37,15 @@
 a{
   color: inherit; /* Nasleđuje boju od roditeljskog elementa */
   text-decoration: none; /* Uklanja podvučenost linkova */}
+  @media screen and (max-width: 768px) {
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30%;
+      background-color: #87e1a8;
+      font-family: "Lobster", sans-serif;
   
+  }
+ 
+  }

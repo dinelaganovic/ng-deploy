@@ -40,7 +40,14 @@
   
   @media screen and (max-width: 768px) {
     .image-container {
-      grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Smanjujemo minimalnu širinu slike za mobilne uređaje */
+      grid-template-columns: 1fr; /* Postavljamo da slike budu u jednom stupcu */
+    }
+    
+    .card-image {
+      width: 100%; /* Postavljamo da slika zauzima punu širinu unutar svog roditelja */
+      max-width: none; /* Poništavamo maksimalnu širinu kako bi se slika raširila na punu širinu */
+      height: auto; /* Automatski izračunajte visinu slike kako bi se očuvao omjer širine i visine */
+      margin-bottom: 10px; /* Dodajemo malo prostora između slika */
     }
   }
   
