@@ -50,5 +50,8 @@
       height: auto; /* Automatski izračunajte visinu slike kako bi se očuvao omjer širine i visine */
       margin-bottom: 10px; /* Dodajemo malo prostora između slika */
     }
+    .card-description:hover a {
+      color: black !important;
+  }
   }
   
