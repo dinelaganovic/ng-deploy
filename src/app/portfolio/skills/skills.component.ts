@@ -52,7 +52,7 @@ export class SkillsComponent {
     { title: 'PHP', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/php.png', description: ' ' },
     { title: 'Java', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/java.png', description: ' ' },
     { title: 'Python', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/python.png', description: ' ' },
-    { title: 'Typescript', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/ts.png', description: ' ' },
+    { title: 'Typescript', imageSrc: 'https://raw.githubusercontent.com/dinelaganovic/ng-deploy/master/src/assets/ts.jpg', description: ' ' },
   ];
   // frontend langg
   cards1 = [
