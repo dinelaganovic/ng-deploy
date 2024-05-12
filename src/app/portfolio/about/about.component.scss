@@ -6,22 +6,22 @@
     text-align: center;
     margin: 0 auto;
     padding: 50px;
-    background-color: #87e1a8;
+    background-color: white;
     font-family: "Helvetica",sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 .ex{
     font-size: 35px;
-    color: green; 
+    color: #a255c1; 
     font-family: 'Helvetica Compressed', sans-serif;
 }
 h2,h3{
-    color: green;
+    color: #a255c1;
 }
 p{
     font-size: 25px;
-    color: rgb(3, 49, 3);
+    color:black;
     text-align: center;
     padding-top: 30px;
 }
@@ -30,17 +30,17 @@ p{
     margin-top: 30px;
 }
 .project-card{
-    border: 1px solid #ccc;
+    border: 1.5px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px 2px rgba(11, 35, 25, 0.3); /* Promijenjeni parametri */
     padding: 10px;
     margin: 10px 0;
     background-color: transparent;
 }
 .project-card p{
     font-size: 25px;
-    color: rgb(3, 49, 3);
+    color: black;
     text-align: left;
     padding-left: 15px;
     padding-top: 10px;
@@ -49,7 +49,7 @@ p{
     border: 1.5px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3); 
+    box-shadow: 0 0 4px 2px rgba(11, 35, 25, 0.3); /* Promijenjeni parametri */
 }
 .cardd p{
 text-align: left;
@@ -61,20 +61,17 @@ padding: 20px;
 @media screen and (max-width: 768px) {
     p{
         font-size: 18px;
-        color: rgb(3, 49, 3);
         text-align: center;
         padding-top: 20px;
     }
     .project-card p{
         font-size: 15px;
-        color: rgb(3, 49, 3);
         text-align: left;
         padding-left: 8px;
         padding-top: 8px;
     }
     .ex{
         font-size: 25px;
-        color: green; 
         font-family: 'Helvetica Compressed', sans-serif;
     }
   }

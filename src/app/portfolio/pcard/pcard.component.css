@@ -2,7 +2,8 @@
     border: 1.5px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 15px 5px rgba(11, 35, 25, 0.3);  }
+    box-shadow: 0 0 4px 2px rgba(11, 35, 25, 0.3); /* Promijenjeni parametri */
+  }
   
   .card-image {
     width: 100%;
@@ -17,13 +18,13 @@
   
   .card-title {
     font-size: 1.5rem;
-    color: rgb(3, 49, 3);
+    color: #a255c1;
     margin-bottom: 10px;
   }
   
   .card-description {
     font-size: 1rem;
-    color: rgb(3, 49, 3);
+    color: black;
     margin-bottom: 20px;
     text-align: left;
   }
